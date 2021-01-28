@@ -75,16 +75,16 @@
 
 /* -------------------- CAROUSEL --------------------*/
 
-/* .container>.row { */
-    /* margin-top: 30px; */
-    /* background-color: rgb(230, 230, 230); */
-    /* border-radius: 20px; */
-    /* padding: 40px; */
-    /* -webkit-border-radius: 20px; */
-    /* -moz-border-radius: 20px; */
-    /* -ms-border-radius: 20px; */
-    /* -o-border-radius: 20px; */
-/* } */
+.greybox {
+    margin-top: 30px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    padding: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
 .carousel {
     margin: 0;
@@ -127,29 +127,29 @@ a {
     padding: 5px;
 }
 
-/* .column>img:hover { */
-    /* transform: scale(2) rotateZ(0deg); */
-    /* -moz-transform: scale(2) rotateZ(0deg); */
-    /* -webkit-transform: scale(2) rotateZ(0deg); */
-    /* -o-transform: scale(2) rotateZ(0deg); */
-    /* transition: all 1s ease-in-out 0s; */
-    /* -moz-transition: all 1s ease-in-out 0s; */
-    /* -webkit-transition: all 1s ease-in-out 0s; */
-    /* -o-transition: all 1s ease-in-out 0s; */
-    /* margin-top: -100px; */
-    /* display: relative; */
-    /* -ms-transform: scale(2) rotateZ(0deg); */
-/* } */
+.column>img:hover {
+    transform: scale(2) rotateZ(0deg);
+    -moz-transform: scale(2) rotateZ(0deg);
+    -webkit-transform: scale(2) rotateZ(0deg);
+    -o-transform: scale(2) rotateZ(0deg);
+    transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    margin-top: -100px;
+    display: relative;
+    -ms-transform: scale(2) rotateZ(0deg);
+}
 
-/* .column>img:hover { */
-    /* visibility: visible; */
-    /* top: 50%; */
-    /* right: 50%; */
-    /* left: 50%; */
-    /* margin-top: -25%; */
-    /* left: 230px; */
-    /* z-index: 50; */
-/* } */
+.column>img:hover {
+    visibility: visible;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    margin-top: -25%;
+    left: 230px;
+    z-index: 50;
+}
 
 
 /* -------------------- FOOTER--------------------*/
